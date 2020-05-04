@@ -15,6 +15,7 @@ import { ExplanationComponent } from './explanation/explanation.component';
 import { CongratulationComponent } from './congratulation/congratulation.component';
 import { EndpageComponent } from './endpage/endpage.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { LoginComponent } from './login/login.component';
     ExplanationComponent,
     CongratulationComponent,
     EndpageComponent,
-    LoginComponent  
+    LoginComponent,
+    RegisterComponent  
   ],
   imports: [
     BrowserModule,
