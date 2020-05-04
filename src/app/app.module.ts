@@ -8,6 +8,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ScoreboardComponent } from './scoreboard/scoreboard.component';
 import { HomeComponent } from './home/home.component';
+import { GuidelineComponent } from './guideline/guideline.component';
+import { ProgressComponent } from './progress/progress.component'
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { HomeComponent } from './home/home.component';
     HeaderComponent,
     FooterComponent,
     ScoreboardComponent,
-    HomeComponent
+    HomeComponent,
+    GuidelineComponent,
+    ProgressComponent  
   ],
   imports: [
     BrowserModule,
