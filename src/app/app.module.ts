@@ -12,7 +12,8 @@ import { GuidelineComponent } from './guideline/guideline.component';
 import { ProgressComponent } from './progress/progress.component';
 import { QuestionComponent } from './question/question.component';
 import { ExplanationComponent } from './explanation/explanation.component';
-import { CongratulationComponent } from './congratulation/congratulation.component'
+import { CongratulationComponent } from './congratulation/congratulation.component';
+import { EndpageComponent } from './endpage/endpage.component'
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { CongratulationComponent } from './congratulation/congratulation.compone
     ProgressComponent,
     QuestionComponent,
     ExplanationComponent,
-    CongratulationComponent  
+    CongratulationComponent,
+    EndpageComponent  
   ],
   imports: [
     BrowserModule,
