@@ -10,7 +10,8 @@ import { ScoreboardComponent } from './scoreboard/scoreboard.component';
 import { HomeComponent } from './home/home.component';
 import { GuidelineComponent } from './guideline/guideline.component';
 import { ProgressComponent } from './progress/progress.component';
-import { QuestionComponent } from './question/question.component'
+import { QuestionComponent } from './question/question.component';
+import { ExplanationComponent } from './explanation/explanation.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { QuestionComponent } from './question/question.component'
     HomeComponent,
     GuidelineComponent,
     ProgressComponent,
-    QuestionComponent  
+    QuestionComponent,
+    ExplanationComponent  
   ],
   imports: [
     BrowserModule,
