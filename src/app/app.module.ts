@@ -11,7 +11,8 @@ import { HomeComponent } from './home/home.component';
 import { GuidelineComponent } from './guideline/guideline.component';
 import { ProgressComponent } from './progress/progress.component';
 import { QuestionComponent } from './question/question.component';
-import { ExplanationComponent } from './explanation/explanation.component'
+import { ExplanationComponent } from './explanation/explanation.component';
+import { CongratulationComponent } from './congratulation/congratulation.component'
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ExplanationComponent } from './explanation/explanation.component'
     GuidelineComponent,
     ProgressComponent,
     QuestionComponent,
-    ExplanationComponent  
+    ExplanationComponent,
+    CongratulationComponent  
   ],
   imports: [
     BrowserModule,
