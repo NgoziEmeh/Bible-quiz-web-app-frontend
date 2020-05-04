@@ -9,7 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 import { ScoreboardComponent } from './scoreboard/scoreboard.component';
 import { HomeComponent } from './home/home.component';
 import { GuidelineComponent } from './guideline/guideline.component';
-import { ProgressComponent } from './progress/progress.component'
+import { ProgressComponent } from './progress/progress.component';
+import { QuestionComponent } from './question/question.component'
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ProgressComponent } from './progress/progress.component'
     ScoreboardComponent,
     HomeComponent,
     GuidelineComponent,
-    ProgressComponent  
+    ProgressComponent,
+    QuestionComponent  
   ],
   imports: [
     BrowserModule,
