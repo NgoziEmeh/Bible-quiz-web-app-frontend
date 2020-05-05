@@ -26,7 +26,8 @@ const appRoutes: Routes = [
   { path: 'progress', component: ProgressComponent},
   { path: 'question', component: QuestionComponent},
   { path: 'explanation', component: ExplanationComponent},
-  { path: 'quizend', component: EndpageComponent}
+  { path: 'quizend', component: EndpageComponent},
+  { path: 'login', component: LoginComponent}
   
 ]
 @NgModule({
