@@ -16,7 +16,12 @@ import { CongratulationComponent } from './congratulation/congratulation.compone
 import { EndpageComponent } from './endpage/endpage.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { Routes, RouterModule } from '@angular/router';
 
+const appRoutes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'congratulation', component: CongratulationComponent}
+]
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +40,8 @@ import { RegisterComponent } from './register/register.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    // AppRoutingModule
+    RouterModule.forRoot(appRoutes)
    
   ],
   providers: [],
