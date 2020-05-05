@@ -22,7 +22,8 @@ const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'congratulation', component: CongratulationComponent},
   { path: 'guideline', component: GuidelineComponent},
-  { path: 'progress', component: ProgressComponent}
+  { path: 'progress', component: ProgressComponent},
+  { path: 'question', component: QuestionComponent}
   
 ]
 @NgModule({
