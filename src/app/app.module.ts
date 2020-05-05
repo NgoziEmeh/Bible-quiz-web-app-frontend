@@ -27,7 +27,8 @@ const appRoutes: Routes = [
   { path: 'question', component: QuestionComponent},
   { path: 'explanation', component: ExplanationComponent},
   { path: 'quizend', component: EndpageComponent},
-  { path: 'login', component: LoginComponent}
+  { path: 'login', component: LoginComponent},
+  { path: 'register', component: RegisterComponent}
   
 ]
 @NgModule({
