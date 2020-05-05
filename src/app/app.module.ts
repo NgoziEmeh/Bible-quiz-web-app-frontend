@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -16,14 +17,15 @@ import { CongratulationComponent } from './congratulation/congratulation.compone
 import { EndpageComponent } from './endpage/endpage.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-import { Routes, RouterModule } from '@angular/router';
+
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'congratulation', component: CongratulationComponent},
   { path: 'guideline', component: GuidelineComponent},
   { path: 'progress', component: ProgressComponent},
-  { path: 'question', component: QuestionComponent}
+  { path: 'question', component: QuestionComponent},
+  { path: 'explanation', component: ExplanationComponent}
   
 ]
 @NgModule({
