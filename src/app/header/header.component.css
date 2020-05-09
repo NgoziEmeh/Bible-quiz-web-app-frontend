@@ -1,17 +1,13 @@
 
 
 .logo {
-    height: 30px;
-    width: auto;
+    height: 100px;
+    width: 150px;
     padding: 10px;
     display: block;
     margin: 0 auto;
-    background:url("/src/assets/biblegurulogo.png") no-repeat center center;
+    
 }
 .nav-link{
     color: #512764;
-}
-.try{
-    height: 200px;
-    width: 500px;
 }
