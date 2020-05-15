@@ -18,6 +18,7 @@ import { EndpageComponent } from './endpage/endpage.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { LeaderboardadComponent } from './leaderboardad/leaderboardad.component';
+import { SquareadComponent } from './squaread/squaread.component';
 
 
 const appRoutes: Routes = [
@@ -47,7 +48,8 @@ const appRoutes: Routes = [
     EndpageComponent,
     LoginComponent,
     RegisterComponent,
-    LeaderboardadComponent  
+    LeaderboardadComponent,
+    SquareadComponent  
   ],
   imports: [
     BrowserModule,
