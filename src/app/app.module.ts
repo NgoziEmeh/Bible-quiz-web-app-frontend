@@ -17,6 +17,7 @@ import { CongratulationComponent } from './congratulation/congratulation.compone
 import { EndpageComponent } from './endpage/endpage.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { LeaderboardadComponent } from './leaderboardad/leaderboardad.component';
 
 
 const appRoutes: Routes = [
@@ -45,7 +46,8 @@ const appRoutes: Routes = [
     CongratulationComponent,
     EndpageComponent,
     LoginComponent,
-    RegisterComponent  
+    RegisterComponent,
+    LeaderboardadComponent  
   ],
   imports: [
     BrowserModule,
