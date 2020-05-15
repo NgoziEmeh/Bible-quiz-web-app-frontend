@@ -20,6 +20,7 @@ import { RegisterComponent } from './register/register.component';
 import { LeaderboardadComponent } from './leaderboardad/leaderboardad.component';
 import { SquareadComponent } from './squaread/squaread.component';
 import { RectangleadComponent } from './rectanglead/rectanglead.component';
+import { TopplayersComponent } from './topplayers/topplayers.component';
 
 
 const appRoutes: Routes = [
@@ -51,7 +52,8 @@ const appRoutes: Routes = [
     RegisterComponent,
     LeaderboardadComponent,
     SquareadComponent,
-    RectangleadComponent  
+    RectangleadComponent,
+    TopplayersComponent  
   ],
   imports: [
     BrowserModule,
