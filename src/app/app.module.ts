@@ -19,6 +19,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { LeaderboardadComponent } from './leaderboardad/leaderboardad.component';
 import { SquareadComponent } from './squaread/squaread.component';
+import { RectangleadComponent } from './rectanglead/rectanglead.component';
 
 
 const appRoutes: Routes = [
@@ -49,7 +50,8 @@ const appRoutes: Routes = [
     LoginComponent,
     RegisterComponent,
     LeaderboardadComponent,
-    SquareadComponent  
+    SquareadComponent,
+    RectangleadComponent  
   ],
   imports: [
     BrowserModule,
