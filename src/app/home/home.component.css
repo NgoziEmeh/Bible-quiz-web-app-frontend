@@ -1,13 +1,13 @@
 
 .flex-container-left{
-    height: 500px;
+    height: 600px;
     display: flex;
     flex-direction: column;
-    background: blueviolet;
+    background: gray;
 }
 
 .flex-container-right{
-    height: 500px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     background: olive;
@@ -15,4 +15,14 @@
 .space-in-between{
     height: 2%;
     background: whitesmoke;
+}
+.leaderboard-holder{
+    height: 20%;
+}
+.smaller-squares{
+    height: 25%;
+}
+
+.main-area{
+    height: 53%;
 }
