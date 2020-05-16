@@ -16,9 +16,6 @@ export class HeaderComponent implements OnInit{
 
     }
 
-    Testing(){
-        var name = $('#txtname').val();
-        alert(name);
-    }
+  
   
 } 
