@@ -31,6 +31,19 @@
 /* Right area */
 .top-players-list{
     height: 41%;
+    text-align: center;
+ 
+}
+.player-list{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    font-size: 14px;
+    text-align: left;
+}
+.players-left .players-right{
+    width: 50%;
 }
 .squaread-holder{
     height: 58%;
