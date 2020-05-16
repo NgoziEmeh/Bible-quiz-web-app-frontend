@@ -26,6 +26,7 @@
 
 .main-area{
     height: 56%;
+    background: url('../../assets/bibleheader1.JPEG') center center no-repeat;
 }
 /* Right area */
 .top-players-list{
@@ -33,4 +34,12 @@
 }
 .squaread-holder{
     height: 58%;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 768px){
+    .leaderboard-holder{
+        display: none;
+    }
 }
