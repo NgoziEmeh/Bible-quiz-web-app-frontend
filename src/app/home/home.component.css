@@ -3,33 +3,33 @@
     height: 600px;
     display: flex;
     flex-direction: column;
-    background: gray;
+    background: #F4F6F6;
 }
 
 .flex-container-right{
     height: 600px;
     display: flex;
     flex-direction: column;
-    background: olive;
+    background: #F4F6F6;
 }
 .space-in-between{
-    height: 2%;
+    height: 1%;
     background: whitesmoke;
 }
 /* Left area */
 .leaderboard-holder{
-    height: 20%;
+    height: 18%;
 }
 .smaller-squares{
     height: 25%;
 }
 
 .main-area{
-    height: 53%;
+    height: 56%;
 }
 /* Right area */
 .top-players-list{
-    height: 40%;
+    height: 41%;
 }
 .squaread-holder{
     height: 58%;
