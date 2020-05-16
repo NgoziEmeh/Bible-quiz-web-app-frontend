@@ -6,7 +6,14 @@
     
     
 }
-.nav-link{
-    color: #512764;
+.navbar{
+    background: 000;
 }
+
+
+.navbar-toggler{
+    background: #512764;
+    
+}
+
 
