@@ -1,1 +1,12 @@
 
+.flex-container-left{
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-right{
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+}
