@@ -12,3 +12,7 @@
     flex-direction: column;
     background: olive;
 }
+.space-in-between{
+    height: 2%;
+    background: whitesmoke;
+}
