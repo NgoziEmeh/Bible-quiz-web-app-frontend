@@ -1,10 +1,14 @@
+
+
 .footer-copyright{
     color: white;
 }
 .page-footer{
-    height: 12vh;
+    height: 13vh;
     width: 100%;
     background: #512764;
+    position: fixed;
+    bottom: 0;
 }
 a{
     color: palevioletred;
