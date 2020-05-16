@@ -16,6 +16,7 @@
     height: 2%;
     background: whitesmoke;
 }
+/* Left area */
 .leaderboard-holder{
     height: 20%;
 }
@@ -25,4 +26,11 @@
 
 .main-area{
     height: 53%;
+}
+/* Right area */
+.top-players-list{
+    height: 40%;
+}
+.squaread-holder{
+    height: 58%;
 }
