@@ -1,8 +1,11 @@
 .footer-copyright{
     color: white;
 }
-footer{
-    height: 500vh;
-    width: 1000px;
-    background: purple;
+.page-footer{
+    height: 10vh;
+    width: 100%;
+    background: #512764;
+}
+a{
+    color: palevioletred;
 }
