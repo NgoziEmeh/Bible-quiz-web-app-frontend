@@ -66,23 +66,43 @@ li{
     .leaderboard-holder{
         display: none;
     }
+    
 
 }
 @media screen and (min-width: 461px) and (max-width: 600px){
     .mediumleaderboard-holder{
         display:block;
     }
+    .leaderboardside-holder{
+        display: none;
+    }
+    
 }
 
 @media screen and (max-width: 460px){
     .mobilead-holder{
         display: block;
     }
+    .leaderboardside-holder{
+        display: none;
+    }
 }
 
 /* side ads on mobile */
 @media screen and (min-width: 767px) and (max-width: 920px){
     .skyscraperholder{
+        display: block;
+    }
+    .squaread-holder{
+        display: none;
+    }
+    .leaderboardside-holder{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 766px){
+    .leaderboardside-holder{
         display: block;
     }
     .squaread-holder{
