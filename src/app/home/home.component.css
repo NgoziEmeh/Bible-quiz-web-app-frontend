@@ -21,6 +21,9 @@
 .leaderboard-holder{
     height: 18%;
 }
+.mobilead-holder{
+    display: none;
+}
 .smaller-squares{
     height: 25%;
 }
@@ -56,5 +59,8 @@ li{
 @media screen and (max-width: 768px){
     .leaderboard-holder{
         display: none;
+    }
+    .mobilead-holder{
+        display: block;
     }
 }
