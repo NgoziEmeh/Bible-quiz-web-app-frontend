@@ -3,14 +3,15 @@
     height: 600px;
     display: flex;
     flex-direction: column;
-    background: #F4F6F6;
+    /* background: #F4F6F6; */
+    background: #F8F9F9;
 }
 
 .flex-container-right{
-    height: 600px;
+    height: 500px;
     display: flex;
     flex-direction: column;
-    background: #F4F6F6;
+    background: #F8F9F9;
 }
 .space-in-between{
     height: 1%;
@@ -26,12 +27,13 @@
 
 .main-area{
     height: 56%;
-    background: url('../../assets/bibleheader1.JPEG') center center no-repeat;
+    background: url('../../assets/bibleheader3.JPEG') center center no-repeat;
 }
 /* Right area */
 .top-players-list{
     height: 41%;
     text-align: center;
+    color: #512764;
  
 }
 .player-list{

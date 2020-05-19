@@ -21,6 +21,7 @@ import { LeaderboardadComponent } from './leaderboardad/leaderboardad.component'
 import { SquareadComponent } from './squaread/squaread.component';
 import { RectangleadComponent } from './rectanglead/rectanglead.component';
 import { TopplayersComponent } from './topplayers/topplayers.component';
+import { MobileadComponent } from './mobilead/mobilead.component';
 
 
 const appRoutes: Routes = [
@@ -53,7 +54,8 @@ const appRoutes: Routes = [
     LeaderboardadComponent,
     SquareadComponent,
     RectangleadComponent,
-    TopplayersComponent  
+    TopplayersComponent,
+    MobileadComponent  
   ],
   imports: [
     BrowserModule,
