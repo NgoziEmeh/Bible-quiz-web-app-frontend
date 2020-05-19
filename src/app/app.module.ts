@@ -23,6 +23,7 @@ import { RectangleadComponent } from './rectanglead/rectanglead.component';
 import { TopplayersComponent } from './topplayers/topplayers.component';
 import { MobileadComponent } from './mobilead/mobilead.component';
 import { MediumleaderboardComponent } from './mediumleaderboard/mediumleaderboard.component';
+import { SkyscraperadComponent } from './skyscraperad/skyscraperad.component';
 
 
 const appRoutes: Routes = [
@@ -57,7 +58,8 @@ const appRoutes: Routes = [
     RectangleadComponent,
     TopplayersComponent,
     MobileadComponent,
-    MediumleaderboardComponent  
+    MediumleaderboardComponent,
+    SkyscraperadComponent  
   ],
   imports: [
     BrowserModule,
