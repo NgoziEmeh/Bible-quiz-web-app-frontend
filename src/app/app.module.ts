@@ -22,6 +22,7 @@ import { SquareadComponent } from './squaread/squaread.component';
 import { RectangleadComponent } from './rectanglead/rectanglead.component';
 import { TopplayersComponent } from './topplayers/topplayers.component';
 import { MobileadComponent } from './mobilead/mobilead.component';
+import { MediumleaderboardComponent } from './mediumleaderboard/mediumleaderboard.component';
 
 
 const appRoutes: Routes = [
@@ -55,7 +56,8 @@ const appRoutes: Routes = [
     SquareadComponent,
     RectangleadComponent,
     TopplayersComponent,
-    MobileadComponent  
+    MobileadComponent,
+    MediumleaderboardComponent  
   ],
   imports: [
     BrowserModule,
