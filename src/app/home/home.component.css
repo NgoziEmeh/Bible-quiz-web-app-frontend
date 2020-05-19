@@ -56,16 +56,19 @@ li{
 .squaread-holder{
     height: 58%;
 }
+.skyscraperholder{
+    display: none;
+}
 
 /* Mobile */
 
-@media screen and (max-width: 651px){
+@media screen and (max-width: 729px){
     .leaderboard-holder{
         display: none;
     }
 
 }
-@media screen and (min-width: 461px) and (max-width: 650px){
+@media screen and (min-width: 461px) and (max-width: 600px){
     .mediumleaderboard-holder{
         display:block;
     }
@@ -74,5 +77,15 @@ li{
 @media screen and (max-width: 460px){
     .mobilead-holder{
         display: block;
+    }
+}
+
+/* side ads on mobile */
+@media screen and (min-width: 767px) and (max-width: 920px){
+    .skyscraperholder{
+        display: block;
+    }
+    .squaread-holder{
+        display: none;
     }
 }
