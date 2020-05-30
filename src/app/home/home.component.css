@@ -62,8 +62,38 @@ li{
 
 /* Mobile */
 
+/* Mobile phones */
+@media screen and (max-width: 460px){
+    .leaderboard-holder{
+        display: none;
+    }
+    .mobilead-holder{
+        display: block;
+    }
+    .mediumleaderboard-holder{
+        display: none;
+    }
+    /* right side and under */
+    .squaread-holder{
+        display: block;
+    }
+    .skyscraperholder{
+        display: none;
+    }
+    .leaderboardside-holder{
+        display: none;
+    }
+    .mediumleaderboardside-holder{
+        display: none;
+    }
+
+}
+/* 
 @media screen and (max-width: 729px){
     .leaderboard-holder{
+        display: none;
+    }
+    .leaderboardside-holder{
         display: none;
     }
     
@@ -76,36 +106,32 @@ li{
     .leaderboardside-holder{
         display: none;
     }
+    .mediumleaderboardside-holder{
+        display: none;
+    }
     
 }
 
-@media screen and (max-width: 460px){
-    .mobilead-holder{
-        display: block;
-    }
-    .leaderboardside-holder{
-        display: none;
-    }
-}
+
 
 /* side ads on mobile */
-@media screen and (min-width: 767px) and (max-width: 920px){
+/* @media screen and (min-width: 767px) and (max-width: 920px){
     .skyscraperholder{
         display: block;
     }
     .squaread-holder{
         display: none;
     }
-    .leaderboardside-holder{
-        display: none;
-    }
-}
+    
+}  */
 
-@media screen and (max-width: 766px){
+/* @media screen and (min-width: 649px) and (max-width: 730px){
     .leaderboardside-holder{
         display: block;
     }
     .squaread-holder{
         display: none;
     }
-}
+} */
+
+
