@@ -88,7 +88,35 @@ li{
     }
 
 }
-/* 
+/* Big mobile phones and small tablets */
+@media screen and (min-width: 461px) and (max-width: 600px){
+    .leaderboard-holder{
+        display: none;
+    }
+    .mobilead-holder{
+        display: none;
+    }
+    .mediumleaderboard-holder{
+        display:block;
+    }
+    /* Right side and under */
+    .squaread-holder{
+        display: none;
+    }
+    .skyscraperholder{
+        display: none;
+    }
+    .leaderboardside-holder{
+        display: none;
+    }
+    .mediumleaderboardside-holder{
+        display: block;
+    }
+    
+}
+
+
+ /* 
 @media screen and (max-width: 729px){
     .leaderboard-holder{
         display: none;
@@ -99,18 +127,7 @@ li{
     
 
 }
-@media screen and (min-width: 461px) and (max-width: 600px){
-    .mediumleaderboard-holder{
-        display:block;
-    }
-    .leaderboardside-holder{
-        display: none;
-    }
-    .mediumleaderboardside-holder{
-        display: none;
-    }
-    
-}
+
 
 
 
@@ -133,5 +150,4 @@ li{
         display: none;
     }
 } */
-
 
