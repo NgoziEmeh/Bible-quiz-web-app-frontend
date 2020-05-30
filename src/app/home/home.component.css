@@ -37,7 +37,7 @@
 }
 /* Right area */
 .top-players-list{
-    height: 41%;
+    height: 48%;
     text-align: center;
     color: #512764;
  
@@ -54,7 +54,7 @@ li{
     width: 50%;
 }
 .squaread-holder{
-    height: 58%;
+    height: 50%;
 }
 .skyscraperholder{
     display: none;
@@ -88,8 +88,8 @@ li{
     }
 
 }
-/* Big mobile phones and small tablets */
-@media screen and (min-width: 461px) and (max-width: 600px){
+/* Big mobile phones and tablets */
+@media screen and (min-width: 461px) and (max-width: 729px){
     .leaderboard-holder{
         display: none;
     }
@@ -116,38 +116,90 @@ li{
 }
 
 
- /* 
-@media screen and (max-width: 729px){
+@media screen and (min-width: 730px) and (max-width: 762px){
     .leaderboard-holder{
+        display: block;
+    }
+    .mobilead-holder{
+        display: none;
+    }
+    .mediumleaderboard-holder{
+        display: none;
+    }
+    /* Right side and under */
+    
+    .squaread-holder{
+        display: none;
+    }
+    .skyscraperholder{
         display: none;
     }
     .leaderboardside-holder{
+        display: block;
+    }
+    .mediumleaderboardside-holder{
         display: none;
     }
-    
+
 
 }
 
-
-
-
-/* side ads on mobile */
-/* @media screen and (min-width: 767px) and (max-width: 920px){
+ /* big tablet */
+ @media screen and (min-width: 767px) and (max-width: 800px){
+    .leaderboard-holder{
+        display: block;
+    }
+    .mobilead-holder{
+        display: none;
+    }
+    .mediumleaderboard-holder{
+        display: none;
+    }
+    /* Right side and under */
+    
+    .squaread-holder{
+        display: none;
+    }
     .skyscraperholder{
         display: block;
     }
-    .squaread-holder{
+    .leaderboardside-holder{
         display: none;
     }
-    
-}  */
+    .mediumleaderboardside-holder{
+        display: none;
+    }
 
-/* @media screen and (min-width: 649px) and (max-width: 730px){
-    .leaderboardside-holder{
+
+}
+/* Laptops and desktops */
+
+@media screen and (min-width: 801px){
+    .leaderboard-holder{
         display: block;
     }
-    .squaread-holder{
+    .mobilead-holder{
         display: none;
     }
-} */
+    .mediumleaderboard-holder{
+        display: none;
+    }
+    /* Right side and under */
+    
+    .squaread-holder{
+        display: block;
+    }
+    .skyscraperholder{
+        display: none;
+    }
+    .leaderboardside-holder{
+        display: none;
+    }
+    .mediumleaderboardside-holder{
+        display: none;
+    }
 
+
+}
+
+ 
