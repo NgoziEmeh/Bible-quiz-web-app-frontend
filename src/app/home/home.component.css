@@ -252,6 +252,12 @@ li{
 
 
 }
+    /* Top player scores */
+
+    .playerscores{
+        width: 100%;
+        height: 1300px;
+    }
 
  /* Small Squares - Sample Quiz */
 
@@ -272,15 +278,16 @@ li{
 
 .card{
     height: 400px;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-top: 5px;
 }
 .card-img-top{
     width: 100%;
     height: 50%;
 }
-.card-text{
+.backside .card-text{
     font-size: 14px;
+    
 }
  .image-flip:hover .backside, .image-flip.hover .backside {
     -webkit-transform: rotateY(0deg);
@@ -347,21 +354,21 @@ li{
     .card, .card-img-top {
     border-radius: 0;
     }
+    /* Card footer */
+    .card-footer{
+        position: absolute;
+        bottom: 2px;
+    }
     /* Button */
     .btn-indigo{
         background: #512764;
         color: whitesmoke;
     }
-
-    /* Top player scores */
-
-    .playerscores{
+    .backside{
         width: 100%;
-        height: 1300px;
     }
 
     /* Mobile views for card area */
-/* 
     
 
     /* Mobile phones */
@@ -375,7 +382,14 @@ li{
 
         #card-1, #card-2, #card-3, #card-4 {
             width: 100%;
-            height: 25%;
+            /* height: 25%; */
+            margin-right: 1px;
+        
+        }
+
+        .card{
+            height: 340px;
+            width: 100%;
             margin-bottom: 2px;
         }
 
@@ -385,6 +399,9 @@ li{
             text-align: center;
             background: #CA94CA;
             font-weight: bold;
+        }
+        .backside{
+            width: 100%;
         }
 
     }
@@ -405,8 +422,6 @@ li{
           flex-direction: row;
           width: 100%;
       }
-
-    
           
 
       .quiz-heading{
@@ -417,4 +432,20 @@ li{
           font-weight: bold;
       }
 
+      .card-title{
+          font-size: 18px;
+      }
+      .card-text{
+          font-size: 11px;
+      }
+
+  }
+
+  @media screen and (min-width: 667px) and (max-width: 830px){
+      .card-text{
+          font-size: 12px;
+      }
+      .frontside .card-title{
+          font-size: 20px;
+      }
   }
