@@ -24,6 +24,7 @@ import { TopplayersComponent } from './topplayers/topplayers.component';
 import { MobileadComponent } from './mobilead/mobilead.component';
 import { MediumleaderboardComponent } from './mediumleaderboard/mediumleaderboard.component';
 import { SkyscraperadComponent } from './skyscraperad/skyscraperad.component';
+import { LargeskyscraperComponent } from './largeskyscraper/largeskyscraper.component';
 
 
 const appRoutes: Routes = [
@@ -59,7 +60,8 @@ const appRoutes: Routes = [
     TopplayersComponent,
     MobileadComponent,
     MediumleaderboardComponent,
-    SkyscraperadComponent  
+    SkyscraperadComponent,
+    LargeskyscraperComponent  
   ],
   imports: [
     BrowserModule,
