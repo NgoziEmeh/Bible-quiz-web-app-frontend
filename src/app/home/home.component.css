@@ -261,8 +261,10 @@ li{
     width: 100%;
     height: 20%;
     text-align: center;
-    background: #CA94CA;
+    /* background: #CA94CA; */
+    background: #512764;
     font-weight: bold;
+    color: whitesmoke;
 }
 .flipcardarea{
     display: flex;
@@ -451,7 +453,7 @@ li{
 .second-area{
     width: 100%;
     height: 700px;
-    background: #CA94CA;
+    background: #F5ECF5;
     display: flex;
     flex-direction: row;
 }
@@ -469,4 +471,13 @@ li{
     margin-top: 10px;
     
     
+}
+.second-left-title{
+    text-align: center;
+    color: #512764;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.second-left-para{
+    text-align: center;
+
 }
