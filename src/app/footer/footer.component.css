@@ -7,6 +7,7 @@
     height: 13vh;
     width: 100%;
     background: #512764;
+    position: relative;
     bottom: 0;
 }
 a{
