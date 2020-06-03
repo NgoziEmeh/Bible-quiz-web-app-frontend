@@ -1,6 +1,6 @@
 
 .flex-container-left{
-    height: 900px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     /* background: #F4F6F6; */
@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     background: #F8F9F9;
+    margin-left: 0px;
 }
 .space-in-between{
     height: 1%;
@@ -19,7 +20,7 @@
 }
 /* Left area */
 .leaderboard-holder{
-    height: 8%;
+    height: 11%;
 }
 .mobilead-holder{
     display: none;
@@ -28,11 +29,11 @@
     display: none;
 }
 .smaller-squares{
-    height: 40%;
+    height: 38%;
 }
 
 .main-area{
-    height: 35%;
+    height: 34%;
     background: url('../../assets/bibleheader3.JPEG') center center no-repeat;
     
 }
@@ -286,6 +287,10 @@ li{
     font-size: 14px;
     
 }
+.frontside .card-text{
+    font-size: 12px;
+    
+}
  .image-flip:hover .backside, .image-flip.hover .backside {
     -webkit-transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
@@ -403,7 +408,7 @@ li{
 
     }
 
-    @media screen and (min-width: 481px) and (max-width: 766px){
+    @media screen and (min-width: 461px) and (max-width: 766px){
         /* Main area */
      .flex-container-left{
       height: 800px;
@@ -438,7 +443,7 @@ li{
 
   }
 
-  @media screen and (min-width: 667px) and (max-width: 830px){
+  @media screen and (min-width: 667px) and (max-width: 850px){
       .card-text{
           font-size: 12px;
       }
@@ -487,12 +492,15 @@ li{
 /* Mobile appearance for second area */
 /* Mobile phones */
 
-@media screen and (max-width: 460px){
+@media screen and (max-width: 550px){
     .largeskyscraper-second-holder{
         display: none;
     }
     .squaread-second-holder{
         display: block;
+    }
+    .skyscraper-second-holder{
+        display: none;
     }
     .second-area{
         width: 100%;
@@ -519,3 +527,70 @@ li{
 }
 
 /* Second area view for tablets */
+@media screen and (min-width: 551px) and (max-width: 970px){
+    .largeskyscraper-second-holder{
+        display: none;
+    }
+    .squaread-second-holder{
+        display: none;
+    }
+    .skyscraper-second-holder{
+        display: block;
+    }
+    .second-area{
+        width: 100%;
+        height: 1000px;
+        background: #F5ECF5;
+        display: flex;
+        flex-direction: row;
+    }
+    .second-left{
+        width: 70%;
+        height: 100%;
+       border: #512764 1px dotted;
+       margin-left: 1px;
+       margin-right: 2px;
+    }
+
+    .second-right{
+        width: 28%;
+        height: 100%;
+        margin-top: 5px;
+        
+        
+    }
+}
+
+@media screen and (min-width: 971px) {
+    .largeskyscraper-second-holder{
+        display: block;
+    }
+    .squaread-second-holder{
+        display: none;
+    }
+    .skyscraper-second-holder{
+        display: none;
+    }
+    .second-area{
+        width: 100%;
+        height: 1000px;
+        background: #F5ECF5;
+        display: flex;
+        flex-direction: row;
+    }
+    .second-left{
+        width: 70%;
+        height: 100%;
+       border: #512764 1px dotted;
+       margin-left: 1px;
+       margin-right: 2px;
+    }
+
+    .second-right{
+        width: 28%;
+        height: 100%;
+        margin-top: 5px;
+        
+        
+    }
+}
