@@ -448,8 +448,25 @@ li{
 /* Text area  and adverts*/
 
 
-     .second-area{
-        width: 100%;
-        height: 1300px;
-        background: #CA94CA;
-    }
+.second-area{
+    width: 100%;
+    height: 700px;
+    background: #CA94CA;
+    display: flex;
+    flex-direction: row;
+}
+.second-left{
+    width: 72%;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: #512764 2px dotted;
+}
+
+.second-right{
+    width: 25%;
+    height: 100%;
+    margin-top: 10px;
+    
+    
+}
