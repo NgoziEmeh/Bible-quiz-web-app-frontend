@@ -1,6 +1,6 @@
 
 .flex-container-left{
-    height: 600px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     /* background: #F4F6F6; */
@@ -19,7 +19,7 @@
 }
 /* Left area */
 .leaderboard-holder{
-    height: 18%;
+    height: 8%;
 }
 .mobilead-holder{
     display: none;
@@ -28,11 +28,11 @@
     display: none;
 }
 .smaller-squares{
-    height: 25%;
+    height: 40%;
 }
 
 .main-area{
-    height: 56%;
+    height: 35%;
     background: url('../../assets/bibleheader3.JPEG') center center no-repeat;
     
 }
@@ -252,12 +252,7 @@ li{
 
 
 }
-    /* Top player scores */
-
-    .playerscores{
-        width: 100%;
-        height: 1300px;
-    }
+ 
 
  /* Small Squares - Sample Quiz */
 
@@ -449,3 +444,12 @@ li{
           font-size: 20px;
       }
   }
+
+/* Text area  and adverts*/
+
+
+     .second-area{
+        width: 100%;
+        height: 1300px;
+        background: #CA94CA;
+    }
