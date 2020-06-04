@@ -603,3 +603,9 @@ li{
     height: 600px;
     width: 100%;
 }
+.challenge-title{
+    text-align: center;
+}
+.challenge-para{
+    text-align: center;
+}
