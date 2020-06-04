@@ -96,6 +96,7 @@ li{
 }
 .squaread-holder{
     height: 50%;
+    margin-top: 10px;
 }
 .skyscraperholder{
     display: none;
@@ -578,7 +579,7 @@ li{
     .second-area{
         width: 100%;
         height: 1000px;
-        background: #F5ECF5;
+        background: #FBFAFC;
         display: flex;
         flex-direction: row;
     }
@@ -606,6 +607,7 @@ li{
 .challenge-title{
     text-align: center;
     height: 5%;
+    font-weight: bold;
 }
 .challenge-para{
     text-align: center;
@@ -684,3 +686,86 @@ li{
 }
 /* Mobile view for challenge invite area */
 /* Mobile phone challenge invite view */
+@media screen and (max-width: 550px){
+    /* Challenge top player */
+.challenge-player{
+    height: 2600px;
+    width: 100%;
+}
+.challenge-title{
+    text-align: center;
+    height: 2%;
+}
+.challenge-para{
+    text-align: center;
+    height: 2%;
+}
+.challenge-container{
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    
+}
+/* First row of players */
+.first-row{
+    width: 100%;
+    height: 50%;
+    
+    display: flex;
+    flex-direction: column;
+}
+.first-cols{
+    height: 25%;
+    width: 100%;
+    border: #512764 1px solid;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.avatar {
+    vertical-align: middle;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.username{
+    color: #512764;
+}
+.player-town{
+    color: grey;
+}
+.player-country{
+    color: grey;
+    font-weight: bold;
+    font-size: 18px;
+}
+.player-points{
+    color: #512764;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Second row of players */
+.second-row{
+    width: 100%;
+    height: 50%;
+    
+    display: flex;
+    flex-direction: column;
+}
+.second-cols{
+    height: 25%;
+    width: 100%;
+    border: #512764 1px solid;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    text-align: center;
+    padding-top: 10px;
+}
+}
