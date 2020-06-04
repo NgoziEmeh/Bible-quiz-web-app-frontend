@@ -633,9 +633,36 @@ li{
     margin-right: 2px;
     margin-top: 2px;
     margin-bottom: 2px;
+    text-align: center;
+    padding-top: 10px;
     
 }
-
+.avatar {
+    vertical-align: middle;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.username{
+    color: #512764;
+}
+.player-town{
+    color: grey;
+}
+.player-country{
+    color: grey;
+    font-weight: bold;
+    font-size: 18px;
+}
+.player-points{
+    color: #512764;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* .first-cols .btn{
+    background: #512764;
+    color: white;
+} */
 /* Second row of players */
 .second-row{
     width: 100%;
@@ -652,4 +679,8 @@ li{
     margin-right: 2px;
     margin-top: 5px;
     margin-bottom: 2px;
+    text-align: center;
+    padding-top: 10px;
 }
+/* Mobile view for challenge invite area */
+/* Mobile phone challenge invite view */
