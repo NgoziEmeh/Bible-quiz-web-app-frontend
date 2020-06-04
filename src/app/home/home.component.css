@@ -509,7 +509,7 @@ li{
     }
     .second-area{
         width: 100%;
-        height: 1000px;
+        height: 1800px;
         background: #F5ECF5;
         display: flex;
         flex-direction: column;
@@ -528,6 +528,9 @@ li{
         margin-top: 5px;
         
         
+    }
+    .second-left-para{
+        font-size: 12px;
     }
 }
 
