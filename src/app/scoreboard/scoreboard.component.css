@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+svg{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    z-index: 1000;
+}
+
+svg .level-score{
+    height: 100%;
+    width: 100%;
+    fill: none;
+    stroke: blue;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px,5px);
+}
+svg .level1{
+    height: 100%;
+    width: 100%;
+    fill: none;
+    stroke: red;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px,5px);
+}
+
+svg .total-score{
+    height: 100%;
+    width: 100%;
+    fill: none;
+    stroke: purple;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px,5px);
+}
