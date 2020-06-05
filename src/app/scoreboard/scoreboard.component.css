@@ -90,6 +90,29 @@ body{
     color: #0a010e;
     font-size: 30px;
 }
+
+.percent .number h5 span{
+    font-size: 24px;
+    color: #6A696A;
+    transition: 0.5s;
+}
+
+.card:hover .percent .number h5 span{
+    color: #0a010e;
+}
+
+.text{
+    position: relative;
+    color: #222;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.card:hover .text{
+    color: #0a010e;
+}
 svg{
     position: relative;
     height: 150px;
@@ -128,15 +151,18 @@ svg .total-score{
 
 
 svg circle:nth-child(2){
-    stroke-dasharray: 220;
-    stroke-dashoffset: 220;
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
 }
 .card:nth-child(1) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 90) / 100);
     stroke: darkblue;  
 }
 .card:nth-child(2) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 452) / 100);
     stroke: grey;  
 }
 .card:nth-child(3) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 2188) / 100);
     stroke: #512764;  
 }
