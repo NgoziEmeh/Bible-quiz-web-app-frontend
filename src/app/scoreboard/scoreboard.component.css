@@ -14,7 +14,7 @@ svg{
     z-index: 1000;
 }
 
-svg .level-score{
+svg circle{
     height: 100%;
     width: 100%;
     fill: none;
@@ -23,7 +23,7 @@ svg .level-score{
     stroke-linecap: round;
     transform: translate(5px,5px);
 }
-svg .level1{
+/* svg .level1{
     height: 100%;
     width: 100%;
     fill: none;
@@ -41,4 +41,19 @@ svg .total-score{
     stroke-width: 10;
     stroke-linecap: round;
     transform: translate(5px,5px);
+} */
+
+
+svg circle:nth-child(2){
+    stroke-dasharray: 220;
+    stroke-dashoffset: 220;
+}
+.card:nth-child(1) svg circle:nth-child(2){
+    stroke: #F2EDF7;  
+}
+.card:nth-child(2) svg circle:nth-child(2){
+    stroke: #F2EDF7;  
+}
+.card:nth-child(3) svg circle:nth-child(2){
+    stroke: #F2EDF7;  
 }
