@@ -165,9 +165,132 @@
     height: 100%;
 
 }
+.allocation-title{
+    color: #512764;
+    text-align: center;
+}
 .allocation-ad{
     width: 33%;
     height: 100%;
-    display: flex;
-    /* justify-content:center; */
+ 
+}
+
+thead{
+    text-align: center;
+}
+
+/* Allocation area advert views */
+
+/* Mobile phones */
+@media screen and (max-width: 480px){
+    .table-area{
+        width: 100%;
+        height: 1350px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .allocation-area{
+        width: 100%;
+        height: 66%;
+    
+    }
+    .allocation-ad{
+        width: 100%;
+        height: 33%;
+       
+    }
+
+    .allo-squaread{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .allo-skyscraper{
+        display: none;
+    }
+
+    .allo-largeskycraper{
+        display: none;
+        
+    }
+}
+
+
+
+/* Tablet view */
+@media screen and (min-width: 481px) and (max-width: 900px){
+    .table-area{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .allocation-area{
+        width: 69%;
+        height: 100%;
+    
+    }
+    .allocation-ad{
+        width: 30%;
+        height: 100%;
+       
+    }
+
+    .allo-squaread{
+        display: none;
+ 
+    }
+
+    .allo-skyscraper{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .allo-largeskycraper{
+        display: none;
+        
+    }
+}
+
+
+/* Laptop and large screen allocation advert view */
+@media screen and (min-width: 901px){
+    .table-area{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .allocation-area{
+        width: 69%;
+        height: 100%;
+    
+    }
+    .allocation-ad{
+        width: 30%;
+        height: 100%;
+       
+    }
+
+    .allo-squaread{
+        display: none;
+ 
+    }
+
+    .allo-skyscraper{
+        display: none;
+      
+    }
+
+    .allo-largeskycraper{
+        display: none;
+        display: flex;
+        justify-content: center;
+        
+    }
 }
