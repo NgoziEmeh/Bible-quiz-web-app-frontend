@@ -7,7 +7,7 @@ body{
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
-    min-height: 100vh;
+    /* min-height: 60vh; */
     align-items: center;
     
 }
@@ -24,13 +24,16 @@ body{
 .container{
     position: relative;
     width: 900px;
+    height: 160px;
     display: flex;
+    flex-direction: row;
+    
    
 }
 .container .card{
     position: relative;
-    width: 200px;
-    height: 250px;
+    width: 33%;
+    height: 100%;
     justify-content: space-around;
     background: linear-gradient(0deg,#F2EDF7,#CCCBCD,#F2EDF7);
     display: flex;
@@ -40,6 +43,7 @@ body{
     text-align: center;
     overflow: hidden;
     transition: 0.5s;
+
 }
 .container .card:hover{
     transform: translateY(-10px);
@@ -115,8 +119,8 @@ body{
 }
 svg{
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     z-index: 1000;
 }
 
@@ -127,7 +131,7 @@ svg circle{
     stroke: #F2EDF7;
     stroke-width: 10;
     stroke-linecap: round;
-    transform: translate(5px,5px);
+    transform: translate(5px,2px);
 }
 /* svg .level1{
     height: 100%;
@@ -165,4 +169,33 @@ svg circle:nth-child(2){
 .card:nth-child(3) svg circle:nth-child(2){
     stroke-dashoffset: calc(220 - (220 * 2188) / 100);
     stroke: #512764;  
+}
+/* Mobile and tablet views */
+
+@media screen and (max-width: 460px){
+ 
+.container{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.container .card{
+    position: relative;
+    width: 100%;
+    height: 33%;
+    justify-content: space-around;
+    background: linear-gradient(0deg,#F2EDF7,#CCCBCD,#F2EDF7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
 }
