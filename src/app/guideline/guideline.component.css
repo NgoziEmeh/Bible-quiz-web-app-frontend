@@ -1,3 +1,69 @@
+/* Views of upper leaderboard adverts */
+/* Mobile phones */
+@media screen and (max-width: 486px){
+    .up-ad-holder{
+        height: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .leaderboard-holder{
+        display: none;
+    }
+    .mobilead-holder{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mediumleaderboard-holder{
+        display: none;
+    }
+}
+
+/* Tablet leaderboard advert views */
+@media screen and (min-width: 487px) and (max-width: 760px){
+    .up-ad-holder{
+        height: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .leaderboard-holder{
+        display: none;
+    }
+    .mobilead-holder{
+        display: none;
+    }
+
+    .mediumleaderboard-holder{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+}
+/* Upper leaderboard advert on laptops and large screens */
+
+@media screen and (min-width: 761px){
+    .up-ad-holder{
+        height: 100px;
+        width: 100%;
+        
+    }
+    .leaderboard-holder{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+    .mobilead-holder{
+        display: none;
+    }
+
+    .mediumleaderboard-holder{
+        display: none;
+    }
+}
+
+
+
 .guideline-header{
     width: 100%;
     height: 80px;
@@ -75,7 +141,5 @@
     .vertical-line{
         display: none;
     }
-    .guideline-title{
-        font-size: 20px;
-    }  
+     
 }
