@@ -143,3 +143,11 @@
     }
      
 }
+
+/* Guideline Paragraph */
+.guideline-para{
+    border: grey 1px solid;
+    box-shadow: 10px 0 8px 5px grey;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
