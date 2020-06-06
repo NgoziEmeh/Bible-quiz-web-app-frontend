@@ -1,7 +1,6 @@
 .guideline-header{
     width: 100%;
     height: 80px;
-    /* background: lightpink; */
     display: flex;
     flex-direction: row;
     padding-top: 10px;
@@ -30,4 +29,53 @@
 }
 .guideline-title{
     color: #512764;
+}
+
+/* Guideline header views on mobile and tablets */
+
+/* Mobile phone view */
+@media screen and (max-width: 577px){
+    .guideline-header{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .guideline-title, .play-buttons{
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .vertical-line{
+        display: none;
+    }
+}
+
+/* Tablet view */
+@media screen and (min-width: 578px) and (max-width: 870px){
+    .guideline-header{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .guideline-title, .play-buttons{
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .vertical-line{
+        display: none;
+    }
+    .guideline-title{
+        font-size: 20px;
+    }  
 }
