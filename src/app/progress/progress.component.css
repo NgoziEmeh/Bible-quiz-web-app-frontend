@@ -1,0 +1,207 @@
+/* Views of upper leaderboard adverts */
+/* Mobile phones */
+@media screen and (max-width: 486px){
+    .up-ad-holder{
+        height: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .leaderboard-holder{
+        display: none;
+    }
+    .mobilead-holder{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mediumleaderboard-holder{
+        display: none;
+    }
+}
+
+/* Tablet leaderboard advert views */
+@media screen and (min-width: 487px) and (max-width: 760px){
+    .up-ad-holder{
+        height: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .leaderboard-holder{
+        display: none;
+    }
+    .mobilead-holder{
+        display: none;
+    }
+
+    .mediumleaderboard-holder{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+}
+/* Upper leaderboard advert on laptops and large screens */
+
+@media screen and (min-width: 761px){
+    .up-ad-holder{
+        height: 100px;
+        width: 100%;
+        
+    }
+    .leaderboard-holder{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+    .mobilead-holder{
+        display: none;
+    }
+
+    .mediumleaderboard-holder{
+        display: none;
+    }
+}
+
+/* Your Progress Table */
+/* Score allocation table area */
+.table-area{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+
+.allocation-area{
+    width: 66%;
+    height: 100%;
+
+}
+.allocation-title{
+    color: #512764;
+    text-align: center;
+}
+.allocation-ad{
+    width: 33%;
+    height: 100%;
+ 
+}
+
+thead{
+    text-align: center;
+}
+
+/* Allocation area advert views */
+
+/* Mobile phones */
+@media screen and (max-width: 480px){
+    .table-area{
+        width: 100%;
+        height: 1350px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .allocation-area{
+        width: 100%;
+        height: 66%;
+    
+    }
+    .allocation-ad{
+        width: 100%;
+        height: 33%;
+       
+    }
+
+    .allo-squaread{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .allo-skyscraper{
+        display: none;
+    }
+
+    .allo-largeskycraper{
+        display: none;
+        
+    }
+}
+
+
+
+/* Tablet view */
+@media screen and (min-width: 481px) and (max-width: 900px){
+    .table-area{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .allocation-area{
+        width: 69%;
+        height: 100%;
+    
+    }
+    .allocation-ad{
+        width: 30%;
+        height: 100%;
+       
+    }
+
+    .allo-squaread{
+        display: none;
+ 
+    }
+
+    .allo-skyscraper{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .allo-largeskycraper{
+        display: none;
+        
+    }
+}
+
+
+/* Laptop and large screen allocation advert view */
+@media screen and (min-width: 901px){
+    .table-area{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .allocation-area{
+        width: 69%;
+        height: 100%;
+    
+    }
+    .allocation-ad{
+        width: 30%;
+        height: 100%;
+       
+    }
+
+    .allo-squaread{
+        display: none;
+ 
+    }
+
+    .allo-skyscraper{
+        display: none;
+      
+    }
+
+    .allo-largeskycraper{
+        display: none;
+        display: flex;
+        justify-content: center;
+        
+    }
+}

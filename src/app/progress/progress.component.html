@@ -4,8 +4,127 @@
 <div class="score_area">
     <app-scoreboard></app-scoreboard>
 </div>
+<!-- Upper leaderboard adverts -->
+<div class="up-ad-holder">
+    <div class="leaderboard-holder">
+            <app-leaderboardad></app-leaderboardad>
+    </div>
+    <div class="mobilead-holder">
+            <app-mobilead></app-mobilead>
+    </div>
+        
+    <div class="mediumleaderboard-holder">
+            <app-mediumleaderboard></app-mediumleaderboard>
+    </div>
+</div>
+<hr>
+
+<!-- End of upper leaderboard adverts -->
 <div class="progress_area">
-    <p>Quiz Progress  info goes here</p>
+    <div class="table-area">
+        <div class="allocation-area">
+            <div class="allocation-title">
+                <h4>Your Progress Table</h4>
+            </div>
+            <div class="table-responsive container-fluid">
+                <table class="table table-hover table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Level</th>
+                            <th>Completion Status</th>
+                            <th>No. of Correct Ans</th>
+                            <th>Correct Ans Scores</th>
+                            <th>No. of Wrong Ans</th>
+                            <th>Wrong Ans Scores</th>
+                            <th>Your Score</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Level 1</td>
+                            <td> <svg class="bi bi-check2" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                              </svg></td>
+                            <td>203</td>
+                            <td>203</td>
+                            <td>18</td>
+                            <td>0</td>
+                            <td>203</td>
+                            <td>Restart</td>
+                        </tr>
+                        <tr>
+                            <td>Level 2</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>20,000</td>
+                        </tr>
+                        <tr>
+                            <td>Level 3</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>30,000</td>
+                        </tr>
+                        <tr>
+                            <td>Level 4</td>
+                            <td>4</td>
+                            <td>2</td>
+                            <td>40,000</td>
+                        </tr>
+                        <tr>
+                            <td>Level 5</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>50,000</td>
+                        </tr>
+                        <tr>
+                            <td>Level 6</td>
+                            <td>6</td>
+                            <td>4</td>
+                            <td>60,000</td>
+                        </tr>
+                        <tr>
+                            <td>Level 7</td>
+                            <td>7</td>
+                            <td>5</td>
+                            <td>70,000</td>
+                        </tr>
+                        <tr>
+                            <td>Level 8</td>
+                            <td>8</td>
+                            <td>6</td>
+                            <td>80,000</td>
+                        </tr>
+                        <tr>
+                            <td>Level 9</td>
+                            <td>9</td>
+                            <td>7</td>
+                            <td>90,000</td>
+                        </tr>
+                        <tr>
+                            <td>Level 10</td>
+                            <td>10</td>
+                            <td>8</td>
+                            <td>100,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="allocation-ad">
+            <div class="allo-squaread">
+                <app-squaread></app-squaread>
+            </div>
+         
+            
+            <div class="allo-skyscraper">
+                <app-skyscraperad></app-skyscraperad>
+            </div>
+           <div class="allo-largeskycraper">
+            <app-largeskyscraper></app-largeskyscraper>
+           </div>
+        </div>
+    </div>
 </div>
 <div class="footer_area">
     <app-footer></app-footer>
