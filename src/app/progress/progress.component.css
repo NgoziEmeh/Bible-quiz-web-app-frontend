@@ -71,16 +71,16 @@
     flex-direction: row;
 }
 
-.allocation-area{
+.progress-area{
     width: 66%;
     height: 100%;
 
 }
-.allocation-title{
+.progress-title{
     color: #512764;
     text-align: center;
 }
-.allocation-ad{
+.progress-ad{
     width: 33%;
     height: 100%;
  
@@ -101,12 +101,12 @@ thead{
         flex-direction: column;
     }
     
-    .allocation-area{
+    .progress-area{
         width: 100%;
         height: 66%;
     
     }
-    .allocation-ad{
+    .progress-ad{
         width: 100%;
         height: 33%;
        
@@ -118,11 +118,11 @@ thead{
         justify-content: center;
     }
 
-    .allo-skyscraper{
+    .progr-skyscraper{
         display: none;
     }
 
-    .allo-largeskycraper{
+    .progr-largeskycraper{
         display: none;
         
     }
@@ -139,29 +139,29 @@ thead{
         flex-direction: row;
     }
     
-    .allocation-area{
+    .progress-area{
         width: 69%;
         height: 100%;
     
     }
-    .allocation-ad{
+    .progress-ad{
         width: 30%;
         height: 100%;
        
     }
 
-    .allo-squaread{
+    .progr-squaread{
         display: none;
  
     }
 
-    .allo-skyscraper{
+    .progr-skyscraper{
         display: block;
         display: flex;
         justify-content: center;
     }
 
-    .allo-largeskycraper{
+    .progr-largeskycraper{
         display: none;
         
     }
@@ -177,31 +177,34 @@ thead{
         flex-direction: row;
     }
     
-    .allocation-area{
+    .progress-area{
         width: 69%;
         height: 100%;
     
     }
-    .allocation-ad{
+    .progress-ad{
         width: 30%;
         height: 100%;
        
     }
 
-    .allo-squaread{
+    .progr-squaread{
         display: none;
  
     }
 
-    .allo-skyscraper{
+    .progr-skyscraper{
         display: none;
       
     }
 
-    .allo-largeskycraper{
+    .progr-largeskycraper{
         display: none;
         display: flex;
         justify-content: center;
         
     }
 }
+
+
+/* Table buttons */
