@@ -1,0 +1,207 @@
+/* Views of upper leaderboard adverts */
+/* Mobile phones */
+@media screen and (max-width: 486px){
+    .up-ad-holder{
+        height: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .leaderboard-holder{
+        display: none;
+    }
+    .mobilead-holder{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mediumleaderboard-holder{
+        display: none;
+    }
+}
+
+/* Tablet leaderboard advert views */
+@media screen and (min-width: 487px) and (max-width: 760px){
+    .up-ad-holder{
+        height: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .leaderboard-holder{
+        display: none;
+    }
+    .mobilead-holder{
+        display: none;
+    }
+
+    .mediumleaderboard-holder{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+}
+/* Upper leaderboard advert on laptops and large screens */
+
+@media screen and (min-width: 761px){
+    .up-ad-holder{
+        height: 100px;
+        width: 100%;
+        
+    }
+    .leaderboard-holder{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+    .mobilead-holder{
+        display: none;
+    }
+
+    .mediumleaderboard-holder{
+        display: none;
+    }
+}
+
+/* Question and answer area */
+/* Score allocation table area */
+.question-ans-area{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+
+.quiz-area{
+    width: 66%;
+    height: 100%;
+
+}
+.quiz-title{
+    color: #512764;
+    text-align: center;
+}
+.quiz-ad{
+    width: 33%;
+    height: 100%;
+ 
+}
+
+thead{
+    text-align: center;
+}
+
+/* Allocation area advert views */
+
+/* Mobile phones */
+@media screen and (max-width: 480px){
+    .question-ans-area{
+        width: 100%;
+        height: 1350px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .quiz-area{
+        width: 100%;
+        height: 66%;
+    
+    }
+    .quiz-ad{
+        width: 100%;
+        height: 33%;
+       
+    }
+
+    .ans-squaread{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ans-skyscraper{
+        display: none;
+    }
+
+    .ans-largeskycraper{
+        display: none;
+        
+    }
+}
+
+
+
+/* Tablet view */
+@media screen and (min-width: 481px) and (max-width: 900px){
+    .question-ans-area{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .quiz-area{
+        width: 69%;
+        height: 100%;
+    
+    }
+    .quiz-ad{
+        width: 30%;
+        height: 100%;
+       
+    }
+
+    .ans-squaread{
+        display: none;
+ 
+    }
+
+    .ans-skyscraper{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ans-largeskycraper{
+        display: none;
+        
+    }
+}
+
+
+/* Laptop and large screen allocation advert view */
+@media screen and (min-width: 901px){
+    .question-ans-area{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .quiz-area{
+        width: 69%;
+        height: 100%;
+    
+    }
+    .quiz-ad{
+        width: 30%;
+        height: 100%;
+       
+    }
+
+    .ans-squaread{
+        display: none;
+ 
+    }
+
+    .ans-skyscraper{
+        display: none;
+      
+    }
+
+    .ans-largeskycraper{
+        display: none;
+        display: flex;
+        justify-content: center;
+        
+    }
+}
