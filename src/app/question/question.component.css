@@ -66,7 +66,7 @@
 /* Score allocation table area */
 .question-ans-area{
     width: 100%;
-    height: 1000px;
+    height: 1200px;
     display: flex;
     flex-direction: row;
 }
@@ -284,4 +284,87 @@ thead{
     margin: 10px 0 10px 0;
     box-shadow: 0px 5px 5px 5px #989798;
 
+}
+
+/* Answer options area */
+.ans-options{
+    height: 38%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* all first row */
+.option-row1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    
+    
+}
+.option-1{
+    width: 50%;
+    height: 100%;
+    background: #D7E4D9;
+    cursor: pointer;
+    margin-right: 5px;
+   
+    
+}
+
+.option-2{
+    width: 50%;
+    height: 100%;
+    background: #EABFC5;
+    margin-left: 5px;
+    cursor: pointer;
+}
+/* all 2nd role */
+.option-row2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.option-3{
+    width: 50%;
+    height: 100%;
+    background: #D5D8DC;
+    margin-right: 5px;
+    cursor: pointer;
+      
+}
+
+.option-4{
+    width: 50%;
+    height: 100%;
+    background: lightblue;
+    margin-left: 5px;
+    cursor: pointer;
+    
+}
+
+.ans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* The next question button */
+.next-button{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    
+    
+}
+.btn-indigo{
+    background: #512764;
+    color: #F3F2F3;
 }
