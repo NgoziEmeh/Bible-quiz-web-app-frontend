@@ -1,0 +1,168 @@
+/* Question and answer area */
+/* Score allocation table area */
+.main-area{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.congrat-area{
+    width: 66%;
+    height: 100%;
+
+}
+.congrat-title{
+    color: #512764;
+    text-align: center;
+}
+.congrat-ad{
+    width: 33%;
+    height: 100%;
+ 
+}
+
+
+
+
+
+/* Mobile phones */
+@media screen and (max-width: 480px){
+    .main-area{
+        width: 100%;
+        height: 1350px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .congrat-area{
+        width: 100%;
+        height: 66%;
+    
+    }
+    .congrat-ad{
+        width: 100%;
+        height: 33%;
+       
+    }
+
+    .ans-squaread{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ans-skyscraper{
+        display: none;
+    }
+
+    .ans-largeskycraper{
+        display: none;
+        
+    }
+}
+
+
+
+/* Tablet view */
+@media screen and (min-width: 481px) and (max-width: 900px){
+    .main-area{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .congrat-area{
+        width: 69%;
+        height: 100%;
+    
+    }
+    .congrat-ad{
+        width: 30%;
+        height: 100%;
+       
+    }
+
+    .ans-squaread{
+        display: none;
+ 
+    }
+
+    .ans-skyscraper{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ans-largeskycraper{
+        display: none;
+        
+    }
+}
+
+
+/* Laptop and large screen allocation advert view */
+@media screen and (min-width: 901px){
+    .main-area{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .congrat-area{
+        width: 69%;
+        height: 100%;
+    
+    }
+    .congrat-ad{
+        width: 30%;
+        height: 100%;
+       
+    }
+
+    .ans-squaread{
+        display: none;
+ 
+    }
+
+    .ans-skyscraper{
+        display: none;
+      
+    }
+
+    .ans-largeskycraper{
+        display: none;
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+
+/* Congratulations body area */
+.congrat-body{
+    width: 95%;
+    height: 80%;
+    border: 1px solid #512764;
+    
+}
+
+
+
+
+/* The Continue button */
+.next-button{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    
+    
+}
+.btn-indigo{
+    background: #512764;
+    color: #F3F2F3;
+}
