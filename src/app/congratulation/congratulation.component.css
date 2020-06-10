@@ -106,7 +106,7 @@
 @media screen and (min-width: 901px){
     .main-area{
         width: 100%;
-        height: 1000px;
+        height: 800px;
         display: flex;
         flex-direction: row;
     }
@@ -145,24 +145,58 @@
     width: 95%;
     height: 80%;
     border: 1px solid #512764;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
+}
+.trophy{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #512764;
+   
+}
+.congrat-small-title{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: darkred;
+    font-weight: bold;
+    font-size: 20px;
+}
+.congratulation-para{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.congrat-buttons{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 
 
 
 /* The Continue button */
-.next-button{
-    height: 7%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.congrat-buttons{
     align-items: center;
     margin-top: 2px;
     
     
 }
+.btn-info{
+    margin-right: 5px;
+}
 .btn-indigo{
     background: #512764;
     color: #F3F2F3;
+    margin-left: 5px;
 }
