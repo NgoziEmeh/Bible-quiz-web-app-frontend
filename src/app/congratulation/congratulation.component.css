@@ -13,8 +13,9 @@
 
 }
 .congrat-title{
-    color: #512764;
+    color: red;
     text-align: center;
+    font-weight: 900;
 }
 .congrat-ad{
     width: 33%;
