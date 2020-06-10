@@ -7,16 +7,16 @@
     flex-direction: row;
 }
 
-.congrat-area{
+.login-area{
     width: 66%;
     height: 100%;
 
 }
-.congrat-title{
+.login-title{
     color: #512764;
     text-align: center;
 }
-.congrat-ad{
+.login-ad{
     width: 33%;
     height: 100%;
  
@@ -35,12 +35,12 @@
         flex-direction: column;
     }
     
-    .congrat-area{
+    .login-area{
         width: 100%;
         height: 66%;
     
     }
-    .congrat-ad{
+    .login-ad{
         width: 100%;
         height: 33%;
        
@@ -73,12 +73,12 @@
         flex-direction: row;
     }
     
-    .congrat-area{
+    .login-area{
         width: 69%;
         height: 100%;
     
     }
-    .congrat-ad{
+    .login-ad{
         width: 30%;
         height: 100%;
        
@@ -111,12 +111,12 @@
         flex-direction: row;
     }
     
-    .congrat-area{
+    .login-area{
         width: 69%;
         height: 100%;
     
     }
-    .congrat-ad{
+    .login-ad{
         width: 30%;
         height: 100%;
        
@@ -141,7 +141,7 @@
 }
 
 /* Congratulations body area */
-.congrat-body{
+.login-body{
     width: 95%;
     height: 80%;
     border: 1px solid #512764;
